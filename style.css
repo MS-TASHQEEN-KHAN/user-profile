@@ -1,0 +1,159 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html,body{height: 100%;
+width: 100%;
+background-color: rgb(194, 192, 192);
+position: relative;}
+
+.box1{width: 15%;
+height: 30%;
+background-color: blue;}
+
+.box2{width: 15%;
+height: 30%;
+background-color: blue;
+position: absolute;
+top: 70%;
+left: 85%;}
+
+.main{width: 95%;
+height: 90%;
+background-color: rgb(194, 192, 192);
+position: absolute;
+top: 5%;
+left: 2.5%;
+z-index: 100;
+display: flex;
+align-items: center;
+gap: 10px;
+border-radius: 20px;
+color: blue;}
+
+.main .left{width: 38%;
+height: 100%;}
+
+.main .left .upper{width: 95%;
+height: 58%;
+background-color: white;
+margin: 1%;
+margin-bottom: 3%;
+margin-left: 3%;
+border-radius: 20px;
+text-align: center;
+padding: 3%;}
+
+.main .left .upper>img{width: 250px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+margin: auto;
+object-fit: cover;
+object-position: center;
+transition: 1s all;
+margin-bottom: 5px;}
+
+.main .left .upper>img:hover{width: 270px;
+height: 220px;
+border: 3px solid blue;}
+
+.main .left .upper>h1{font-size: 55px;
+font-weight: 900;
+margin-bottom: 10px;}
+
+.main .left .upper>p{font-size: 25px;
+font-weight: 500;
+margin-bottom: 5px;}
+
+.main .left .upper>button{font-size: 30px;
+font-weight: 500;
+padding: 10px 40px;
+background-color: transparent;
+border-radius: 20px;
+border: 3px solid blue;
+color: blue;
+margin-top: 5px;
+margin: 25px;
+transition: 0.5s all;}
+
+.main .left .upper>button:hover{background-color: blue;
+color: white;}
+
+.main .left .lower{width: 95%;
+height: 38%;
+background-color: white;
+margin: 1%;
+margin-left: 3%;
+border-radius: 20px;
+padding: 3%;}
+
+.main .left .lower>h1{padding: 15px 30px;
+font-size: 35px;}
+
+.main .left .lower>hr{border: 2px solid rgb(102, 102, 102);}
+
+.main .right{width: 60%;
+height: 100%;}
+
+.main .right .upper{width: 100%;
+height: 39%;
+background-color: white;
+margin: 0.5%;
+margin-bottom: 2%;
+border-radius: 20px;
+padding: 3%;}
+
+.main .right .upper>h1{font-size: 30px;
+font-weight: 500;
+padding: 10px 20px;}
+
+.main .right .upper>hr{border: 1px solid rgb(102, 102, 102);
+width: 90%;}
+
+.main .right .lower{width: 100%;
+height: 57%;
+background-color: rgb(194, 192, 192);
+margin: 0.5%;
+border-radius: 20px;
+display: flex;}
+
+.main .right .lower .edit1{width: 49%;
+height: 100%;
+background-color: white;
+margin-right: 1%;
+padding: 2%;
+border-radius: 20px;}
+
+.main .right .lower .edit1>h1{font-size: 55px;
+font-weight: 900;
+padding: 5px;
+margin-bottom: 30px;}
+
+.main .right .lower .edit1>p{font-size: 25px;
+font-weight: 500;
+padding: 10px 20px;}
+
+.main .right .lower .edit1>hr{border: 3px solid blue;
+margin-bottom: 12px;
+width: 90%;}
+
+.main .right .lower .edit2{width: 49%;
+height: 100%;
+background-color: white;
+margin-left: 1%;
+padding: 2%;
+border-radius: 20px;}
+
+.main .right .lower .edit2>h1{font-size: 55px;
+font-weight: 900;
+padding: 5px;
+margin-bottom: 30px;}
+    
+.main .right .lower .edit2>p{font-size: 25px;
+font-weight: 500;
+padding: 10px 20px;}
+    
+.main .right .lower .edit2>hr{border: 3px solid blue;
+margin-bottom: 12px;
+width: 90%;}
